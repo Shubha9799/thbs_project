@@ -43,7 +43,7 @@
 	<div class="modal-dialog modal-login">
 		<div class="modal-content">
 			<div class="modal-header">				
-				<h4 class="modal-title">Sign in</h4>
+				<h4 class="modal-title">Log in</h4>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
@@ -58,7 +58,7 @@
 						<input type="submit" class="btn btn-primary btn-block btn-lg" value="Send OTP">
 					</div>
 				</form>				
-				<p class="hint-text small"><a href="#Sign up">New to Zomato? Create account</a></p>
+				<p class="hint-text small"><a  data-bs-dismiss="modal" data-bs-toggle="modal" href="#staticBackdrop">New to Zomato? Create account</a></p>
 			</div>
 		</div>
 	</div>
@@ -75,7 +75,7 @@
 	  <div class="modal-content">
 		<div class="modal-header">
 		  <h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
-		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" data-bs-toggle="modal"  aria-label="Close"></button>
 		</div>
 		<div class="modal-body">
 			<div class="signup-form">
@@ -104,7 +104,7 @@
 						<button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
 					</div>
 				</form>
-				<div class="text-center"><a href="#">Already have Zomato account? Login here</a></div>
+				<div class="text-center"><a data-dismiss="modal" data-bs-toggle="modal" href="#myModal">Already have Zomato account? Login here</a></div>
 			</div>
 		</div>
 		<div class="modal-footer">
